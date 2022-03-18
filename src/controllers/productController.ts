@@ -1,4 +1,4 @@
-import { NextFunction, Request, response, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 import { products_collection } from "../db/collections";
 import { convertImageToBase64 } from "../functions/convertImageToBase64";
 import { ObjectId } from 'mongodb';
