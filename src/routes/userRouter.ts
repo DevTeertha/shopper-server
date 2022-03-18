@@ -1,5 +1,11 @@
 import { Router } from 'express';
-import { getUserOrderListController, loginController, placeOrder, registerController, userDetailsController } from '../controllers/userController';
+import { 
+    getUserOrderListController, 
+    loginController, 
+    placeOrder, 
+    registerController, 
+    userDetailsController 
+} from '../controllers/userController';
 import { checkLogin } from '../middlewares/checkLogin';
 
 const userRouter: Router = Router();
